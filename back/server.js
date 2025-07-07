@@ -13,11 +13,12 @@ const PORTZ = process.env.PORT || 4000; // fallback if .env is missing
 
 console.log("PORT from .env:", PORTZ);
 
+
 app.get("/", (req, res) => {
   res.send("Hello");
 });
 
-console.log("ok")
+console.log("oplplk")
 
 app.listen(PORTZ, () => {
   console.log(`✅ Server running on port: ${PORTZ}`);
