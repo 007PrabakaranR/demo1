@@ -17,7 +17,7 @@ console.log("PORT from .env:", PORTZ);
 app.get("/", (req, res) => {
   res.send("Hello");
 });
-
+console.log("res")
 console.log("oplplk")
 
 app.listen(PORTZ, () => {
